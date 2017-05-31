@@ -1,0 +1,116 @@
+.layout {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.lessonsSale_tit {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+.lessonsSale_tit img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.lessonsSale_tit p {
+  position: absolute;
+  top: 65px;
+  right: 110px;
+  font-size: 30px;
+  color: #8f6d3e;
+}
+.lessonsSale_tit span {
+  font-size: 30px;
+  color: #8f6d3e;
+  position: absolute;
+  bottom: 75px;
+  right: 35px;
+}
+.lessonsSale_info {
+  width: 100%;
+  background-color: #fff;
+  padding: 0 25px;
+  margin-bottom: 120px;
+}
+.lessonsSale_info .lessonsSale_info_tit {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.lessonsSale_info .lessonsSale_info_tit h3 {
+  font-size: 32px;
+  color: #997542;
+}
+.lessonsSale_info .lessonsSale_info_tit p {
+  font-size: 28px;
+  color: #997542;
+  margin: 20px 0;
+}
+.lessonsSale_info .lessonsSale_info_box {
+  width: 100%;
+  margin-top: 15px;
+}
+.lessonsSale_info .lessonsSale_info_box .info_box_left {
+  width: 80%;
+  height: 140px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 140px;
+  box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+.lessonsSale_info .lessonsSale_info_box .info_box_left h3 {
+  font-size: 46px;
+  color: #997542;
+}
+.lessonsSale_info .lessonsSale_info_box .info_box_right {
+  width: 15%;
+  height: 157px;
+  position: relative;
+}
+.lessonsSale_info .lessonsSale_info_box .info_box_right span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../img/fuxuankaung.png") no-repeat left center;
+  -webkit-background-size: 70px 70px;
+  background-size: 70px 70px;
+}
+.lessonsSale_info .lessonsSale_info_box .info_box_right span.active {
+  background: url("../img/checked.png") no-repeat left center;
+  -webkit-background-size: 70px 70px;
+  background-size: 70px 70px;
+}
+.lessonsSale_footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background-color: #393a3f;
+  padding-left: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.lessonsSale_footer span {
+  font-size: 34px;
+  color: #fff;
+  padding-right: 40px;
+}
+.lessonsSale_footer span i {
+  color: #997542;
+}
+.lessonsSale_footer a {
+  width: 225px;
+  height: 100%;
+  float: right;
+  background-color: #997542;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  font-size: 34px;
+}

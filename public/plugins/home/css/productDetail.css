@@ -1,0 +1,88 @@
+.layout {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.layout .productDetail_tit {
+  width: 100%;
+  height: 330px;
+}
+.layout .productDetail_tit img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.layout .productDetail_con {
+  width: 100%;
+}
+.layout .productDetail_con .productDetail_con_tit {
+  width: 100%;
+  height: 110px;
+  line-height: 110px;
+}
+.layout .productDetail_con .productDetail_con_tit h3 {
+  font-size: 34px;
+  color: #4a4a4a;
+}
+.layout .productDetail_con .productDetail_con_tit span {
+  font-size: 24px;
+  color: #4a4a4a;
+}
+.layout .productDetail_con .productDetail_con_tit span i {
+  font-size: 24px;
+  color: #4a4a4a;
+  font-weight: 700;
+}
+.layout .productDetail_con .productDetail_con_info {
+  width: 100%;
+}
+.layout .productDetail_con .productDetail_con_info .productDetail_con_info_left {
+  width: 95px;
+  float: left;
+}
+.layout .productDetail_con .productDetail_con_info .productDetail_con_info_left p {
+  font-size: 30px;
+}
+.layout .productDetail_con .productDetail_con_info .productDetail_con_info_right {
+  height: 100%;
+  overflow: hidden;
+}
+.layout .productDetail_con .productDetail_con_info .productDetail_con_info_right p {
+  font-size: 30px;
+}
+.layout .productDetail_footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 10000;
+}
+.layout .productDetail_footer span {
+  display: block;
+  width: 60%;
+  float: left;
+  font-size: 30px;
+  text-align: center;
+}
+.layout .productDetail_footer span i {
+  font-size: 42px;
+  color: #ffc72c;
+}
+.layout .productDetail_footer button {
+  display: block;
+  width: 40%;
+  float: left;
+  height: 100%;
+  text-align: center;
+  line-height: 100px;
+  background-color: #ffc72c;
+  font-size: 36px;
+  color: #fff;
+}
+.w {
+  padding: 0 25px;
+}

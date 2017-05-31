@@ -1,0 +1,98 @@
+.layout {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.currencyRecharge_box {
+  width: 100%;
+  padding: 100px 50px 0 50px;
+}
+.currencyRecharge_box .currencyRecharge_box_top {
+  width: 100%;
+}
+.currencyRecharge_box .currencyRecharge_box_top p {
+  text-align: center;
+  font-size: 36px;
+  color: #5e5e63;
+  vertical-align: bottom;
+}
+.currencyRecharge_box .currencyRecharge_box_top p span {
+  color: #ffc72c;
+  font-size: 60px;
+}
+.currencyRecharge_box .currencyRecharge_box_top .box_top_xuebi {
+  width: 100%;
+  margin-top: 100px;
+}
+.currencyRecharge_box .currencyRecharge_box_top .box_top_xuebi ul {
+  width: 100%;
+}
+.currencyRecharge_box .currencyRecharge_box_top .box_top_xuebi ul li {
+  width: 31%;
+  height: 100px;
+  float: left;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 0 0 5px #ccc;
+  margin-right: 2.2%;
+  text-align: center;
+  line-height: 100px;
+  font-size: 44px;
+}
+.currencyRecharge_box .currencyRecharge_box_top .box_top_money {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  font-size: 42px;
+  box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 0 0 5px #ccc;
+  margin-top: 35px;
+  border-radius: 10px;
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+
+.currencyRecharge_box .currencyRecharge_box_top .box_top_money input {
+  float: left;
+  height: 100%;
+  width: 100%;
+  font-size: 40px;
+}
+.currencyRecharge_box .currencyRecharge_box_bottom {
+  width: 100%;
+  margin-top: 180px;
+}
+.currencyRecharge_box .currencyRecharge_box_bottom h3 {
+  font-size: 30px;
+  color: #5e5e63;
+  margin-bottom: 50px;
+}
+.currencyRecharge_box .currencyRecharge_box_bottom p {
+  font-size: 30px;
+  color: #5e5e63;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.currencyRecharge_box .currencyRecharge_box_bottom p span {
+  color: #00708a;
+}
+.currencyRecharge_bottom_box {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.currencyRecharge_bottom_box a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 100px;
+  background-color: #ffc72c;
+  font-size: 44px;
+  color: #fff;
+}

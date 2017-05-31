@@ -1,0 +1,137 @@
+.layout {
+  width: 100%;
+  height: 100%;
+  padding: 0 25px;
+}
+.my_jifen_tit {
+  width: 100%;
+  margin-top: 60px;
+}
+.my_jifen_tit p {
+  font-size: 60px;
+  color: #ffc72c;
+  text-align: center;
+}
+.my_jifen_tit span {
+  display: block;
+  width: 220px;
+  height: 55px;
+  margin: 0 auto;
+  background-color: #ffc72c;
+  border-radius: 20px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  line-height: 55px;
+}
+.my_jifen_box {
+  width: 100%;
+}
+.my_jifen_box .jifen_box_tit {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.my_jifen_box .jifen_box_tit ul {
+  width: 405px;
+  height: 85px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 3px;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 0 0 5px #ccc;
+  -moz-box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc;
+}
+.my_jifen_box .jifen_box_tit ul li {
+  width: 50%;
+  height: 100%;
+  float: left;
+  border-radius: 15px;
+}
+.my_jifen_box .jifen_box_tit ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 85px;
+  font-size: 28px;
+  color: #000;
+}
+.my_jifen_box .jifen_box_con {
+  width: 100%;
+
+}
+.my_jifen_box .jifen_box_con ul {
+  width: 100%
+}
+.my_jifen_box .jifen_box_con ul li {
+   width: 100%;
+   height: 75px;
+   line-height: 75px;
+   border-bottom: 1px solid #ccc;
+}
+.my_jifen_box .jifen_box_con ul li span {
+   width: 33.3%;
+   height: 100%;
+   float: left;
+   font-size: 28px;
+   color: #929292;
+}
+.my_jifen_box .jifen_box_con ul li span:nth-child(1) {
+  text-align: left;
+}
+.my_jifen_box .jifen_box_con ul li span:nth-child(2) {
+  text-align: center;
+  color: #ffc72c;
+}
+.my_jifen_box .jifen_box_con ul li span:nth-child(3) {
+  text-align: right;
+}
+.my_jifen_box .jifen_box_con ul li:nth-child(1) span {
+  font-size: 32px;
+  color: #000;
+}
+.my_jifen_box .jifen_box_tit ul li.current {
+  background-color: #ffc72c;
+}
+.my_jifen_box .jifen_box_tit ul li.current a {
+  color: #fff;
+}
+.mainCourse_footer {
+  width: 100%;
+  height: 100px;
+  background-color: #4a4a4a;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.mainCourse_footer ul {
+  width: 100%;
+  height: 100%;
+}
+.mainCourse_footer ul li {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+.mainCourse_footer ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.mainCourse_footer ul li a img {
+  margin-top: 12px;
+  width: 40px;
+  height: 40px;
+}
+.mainCourse_footer ul li a p {
+  color: #fff;
+  font-size: 27px;
+}

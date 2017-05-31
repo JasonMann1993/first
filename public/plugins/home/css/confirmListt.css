@@ -1,0 +1,278 @@
+.layout {
+  width: 100%;
+  max-height: 135%;
+  background-color: #eff1f6;
+  position: relative;
+}
+.x {
+  padding: 0 25px;
+}
+.confirmList_box {
+  width: 100%;
+  background-color: #fff;
+}
+.confirmList_box .confirmList_box_tit {
+  width: 100%;
+  height: 66px;
+  line-height: 66px;
+}
+.confirmList_box .confirmList_box_tit h3 {
+  color: #5e5e63;
+  font-size: 30px;
+}
+.confirmList_box .confirmList_box_con {
+  width: 100%;
+}
+.confirmList_box .confirmList_box_con .confirmList_con_box {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  padding: 20px 0;
+}
+.confirmList_box .confirmList_box_con .confirmList_con_box .con_box_left {
+  width: 280px;
+  height: 155px;
+  float: left;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 0 0 -5px #ccc;
+  margin-right: 30px;
+  overflow: hidden;
+}
+.confirmList_box .confirmList_box_con .confirmList_con_box .con_box_left img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.confirmList_box .confirmList_box_con .confirmList_con_box .con_box_right {
+  height: 155px;
+  overflow: hidden;
+  position: relative;
+}
+.confirmList_box .confirmList_box_con .confirmList_con_box .con_box_right h3 {
+  font-size: 36px;
+  color: #5e5e63;
+  position: absolute;
+  top: 0;
+}
+.confirmList_box .confirmList_box_con .confirmList_con_box .con_box_right p {
+  font-size: 26px;
+  color: #b9b9b9;
+  position: absolute;
+  top: 60px;
+}
+.confirmList_box .confirmList_box_con .confirmList_con_box .con_box_right .con_box_right_span {
+  position: absolute;
+  top: 110px;
+  position: relative;
+}
+.confirmList_box .confirmList_box_con .confirmList_con_box .con_box_right .con_box_right_span span {
+  font-size: 26px;
+  left: 0;
+}
+.confirmList_box .confirmList_box_con .confirmList_con_box .con_box_right .con_box_right_span i {
+  font-size: 26px;
+  right: 0;
+}
+.confirmList_favourable {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #fff;
+}
+.confirmList_favourable .confirmList_favourable_tit {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  border-bottom: 1px solid #ccc;
+}
+.confirmList_favourable .confirmList_favourable_tit h3 {
+  font-size: 30px;
+  color: #5e5e63;
+}
+.confirmList_favourable .confirmList_favourable_con {
+  width: 100%;
+  padding: 20px 22px;
+}
+.confirmList_favourable .confirmList_favourable_con ul {
+  width: 100%;
+}
+.confirmList_favourable .confirmList_favourable_con ul li {
+  width: 50%;
+  height: 60px;
+  float: left;
+}
+.confirmList_favourable .confirmList_favourable_con ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #ffc72c;
+  font-size: 30px;
+  line-height: 60px;
+  padding-left: 80px;
+}
+.confirmList_favourable .confirmList_favourable_foooter {
+  width: 100%;
+  height: 70px;
+  border-top: 1px solid #ccc;
+  line-height: 70px;
+}
+.confirmList_favourable .confirmList_favourable_foooter a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-weight: 700;
+}
+.confirmList_favourable .confirmList_favourable_foooter a span {
+  font-size: 30px;
+  color: #5e5e63;
+}
+.confirmList_favourable .confirmList_favourable_foooter a i {
+  font-size: 30px;
+  color: #5e5e63;
+}
+.confirmList_conclusion {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #fff;
+}
+.confirmList_conclusion .confirmList_conclusion_tit {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  border-bottom: 1px solid #ccc;
+}
+.confirmList_conclusion .confirmList_conclusion_tit h3 {
+  font-size: 30px;
+  color: #5e5e63;
+}
+.confirmList_conclusion .confirmList_conclusion_con {
+  width: 100%;
+}
+.confirmList_conclusion .confirmList_conclusion_con ul {
+  width: 100%;
+}
+.confirmList_conclusion .confirmList_conclusion_con ul li {
+  width: 100%;
+  height: 66px;
+  line-height: 66px;
+}
+.confirmList_conclusion .confirmList_conclusion_con ul li span {
+  font-size: 26px;
+}
+.confirmList_pay {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.confirmList_pay .confirmList_pay_tit {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+}
+.confirmList_pay .confirmList_pay_tit h3 {
+  font-size: 32px;
+  color: #5e5e63;
+}
+.confirmList_pay .confirmList_pay_info {
+  width: 100%;
+  background-color: #fff;
+}
+.confirmList_pay .confirmList_pay_info .confirmList_pay_info_box {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  padding: 20px 0;
+}
+.confirmList_pay .confirmList_pay_info .confirmList_pay_info_box .confirmList_pay_info_left {
+  width: 50%;
+  position: relative;
+}
+.confirmList_pay .confirmList_pay_info .confirmList_pay_info_box .confirmList_pay_info_left a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.confirmList_pay .confirmList_pay_info .confirmList_pay_info_box .confirmList_pay_info_left a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.confirmList_pay .confirmList_pay_info .confirmList_pay_info_box .confirmList_pay_info_left i {
+  font-size: 32px;
+  color: #ffc72c;
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+.confirmList_pay .confirmList_pay_info .confirmList_pay_info_box .confirmList_pay_info_left span {
+  font-size: 28px;
+  color: #989898;
+  position: absolute;
+  left: 60px;
+  top: 40px;
+}
+.confirmList_pay .confirmList_pay_info .confirmList_pay_info_box .confirmList_pay_info_left p {
+  font-size: 28px;
+  color: #989898;
+  position: absolute;
+  left: 60px;
+  top: 70px;
+}
+.confirmList_pay .confirmList_pay_info .confirmList_pay_info_box .confirmList_pay_info_right {
+  width: 50%;
+  position: relative;
+}
+.confirmList_pay .confirmList_pay_info .confirmList_pay_info_box .confirmList_pay_info_right span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url("../img/fuxuankaung.png") no-repeat 0 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.confirmList_pay .confirmList_pay_info .confirmList_pay_info_box .confirmList_pay_info_right a {
+  display: block;
+  width: 160px;
+  height: 56px;
+  background-color: #ffc72c;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  top: 70px;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  line-height: 56px;
+}
+.confirmList_pay .confirmList_pay_info .confirmList_pay_info_right span.active {
+  background: url("../img/checked.png") no-repeat 0 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.confirmList_footer {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.confirmList_footer a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 100px;
+  background-color: #ffc72c;
+  color: #fff;
+  font-size: 34px;
+  text-align: center;
+}

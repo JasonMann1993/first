@@ -1,0 +1,221 @@
+.nav-tabs {
+    border-bottom: 1px solid #3c8dbc;
+    margin-bottom: 20px;
+}
+
+.navbar{
+    height: 50px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: #3c8dbc;
+    color: #fff;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #e0e0e0;
+    border-bottom-color: #3c8dbc;
+    color: #3c8dbc;
+}
+
+.panel-table {
+    padding: 20px;
+}
+
+/*
+表格
+*/
+.table tr {
+    height: 50px;
+}
+
+.table th {
+    border-top: none !important;
+    border-bottom: 2px solid rgba(193, 193, 193, 0.35);
+}
+
+.table td {
+    line-height: 50px !important;
+}
+
+.table-hover > tbody > tr:first-of-type:hover {
+    background-color: transparent;
+}
+
+/**
+表单
+ */
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-group {
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+.submit-button{
+    padding: 8px 30px;
+    background: #3c8dbc;
+    border-color: #3c8dbc;
+}
+.form-info{
+    padding: 0 10%;
+}
+
+.treeview-menu li{
+    height: 45px;
+    line-height: 35px;
+}
+.skin-green .sidebar-menu>li.actives>a {
+    color: #fff;
+    background: #1e282c;
+    border-left-color: #3c8dbc;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.hover ,.btn-primary.focus, .btn-primary:focus{
+    background-color: rgba(0, 166, 90, 0.61) !important;
+    border-color: #5cc396 !important;
+}
+
+.pagination{
+    float: right;
+}
+.pagination a,.pagination span{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #337ab7;
+    float: left;
+    padding: 6px 12px;
+    position: relative;
+    text-decoration: none;
+
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    margin: 0 3px;
+    line-height: 21px;
+    text-align: center;
+}
+.pagination a:hover{
+    background:#3c8dbc;
+    color: white;
+}
+.pagination span{
+    background:#3c8dbc;
+    color:white;
+}
+
+
+.toast-top-right {
+    top: 55px;
+}
+.actives .treeview-menu{
+    display: block;
+}
+.actives .treeview-menu .actives a{
+    color: white;
+}
+
+.main-footer{
+    display: none !important;
+}
+
+.content table img{
+    width: 60px;
+    height: 60px;
+}
+
+
+/* List */
+.list-group{
+    list-style: none;
+    margin: 0;
+}
+.list-group > li{
+    line-height: 49px;
+    border-top: 1px solid #f0f2f7;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+}
+.list-group > li:first-child{
+    border-top: 0;
+}
+.list-group li > .label{
+    display: block;
+    font-size: 100%;
+    font-weight: 500;
+    color: #657180;
+    line-height: 49px;
+    padding: 0 15px;
+    text-align: right;
+    padding-right: 35px;
+}
+.list-group li .text{
+    font-size: 90%;
+}
+.list-group .avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.list-group #map{
+    width: 100%;
+    height: 400px;
+}
+.audit h3{
+    width: 16.66666667%;
+    text-align: right;
+    padding-bottom: 14px;
+    color: rgb(150, 150, 150);
+    border-bottom: 1px solid rgba(101, 113, 128, 0.18);
+    margin-bottom: 35px;
+}
+.do-action button{
+    padding-left:49px;
+    padding-right:49px;
+
+}
+.do-action{
+    padding: 35px 0 !important;
+}
+.do-action a{
+    margin-left: 14px;
+}
+#mapPage{
+    border-bottom: 1px solid gainsboro;
+}
+#images img{
+    width: 150px;
+    height: 80px;
+    cursor: pointer;
+}
+#images li{
+    float: left;
+    width: 200px;
+    list-style: none;
+}
+#images li img{
+    margin-bottom: 20px;
+}

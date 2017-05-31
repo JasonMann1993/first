@@ -1,0 +1,133 @@
+.layout {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 40px;
+}
+.layout .perCard_con {
+  width: 100%;
+}
+.layout .perCard_con .perCard_con_box {
+  width: 100%;
+  height: 240px;
+  margin-bottom: 40px;
+}
+.layout .perCard_con .perCard_con_box .perCard_con_box_left {
+  width: 75%;
+  height: 100%;
+  border-radius: 30px;
+  float: left;
+  -webkit-box-shadow: 6px 6px 6px #ccc;
+  -moz-box-shadow: 6px 6px 6px #ccc;
+  box-shadow: 6px 6px 6px #ccc;
+  -webkit-box-shadow: 0 0 12px #ccc;
+  -moz-box-shadow: 0 0 12px #ccc;
+  box-shadow: 0 0 12px #ccc;
+  padding: 5px;
+}
+.layout .perCard_con .perCard_con_box .perCard_con_box_left .perCard_border_box {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  border: 1px solid #b28850;
+  overflow: hidden;
+}
+.layout .perCard_con .perCard_con_box .perCard_con_box_left .perCard_border_box .perCard_box_left {
+  width: 120px;
+  height: 100%;
+  float: left;
+  background-color: #b28850;
+  writing-mode: tb-rl;
+  text-align: center;
+  position: relative;
+}
+.layout .perCard_con .perCard_con_box .perCard_con_box_left .perCard_border_box .perCard_box_left h3 {
+  font-size: 28px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.layout .perCard_con .perCard_con_box .perCard_con_box_left .perCard_border_box .perCard_box_right {
+  height: 100%;
+  overflow: hidden;
+  padding: 35px 20px;
+}
+.layout .perCard_con .perCard_con_box .perCard_con_box_left .perCard_border_box .perCard_box_right .perCard_box_con_right {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #b28850;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+}
+.layout .perCard_con .perCard_con_box .perCard_con_box_left .perCard_border_box .perCard_box_right .perCard_box_con_right h3 {
+  width: 60px;
+  height: 35px;
+  background-color: #fff;
+  font-size: 28px;
+  color: #b28850;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.layout .perCard_con .perCard_con_box .perCard_con_box_left .perCard_border_box .perCard_box_right .perCard_box_con_right p {
+  font-size: 20px;
+  color: #b28850;
+}
+.layout .perCard_con .perCard_con_box .perCard_con_box_right {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.layout .perCard_con .perCard_con_box .perCard_con_box_right span {
+  display: block;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../img/fuxuankaung.png") no-repeat 0 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.layout .perCard_footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background-color: #393a3f;
+  padding-left: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.layout .perCard_footer span {
+  font-size: 34px;
+  color: #fff;
+  padding-right: 40px;
+}
+.layout .perCard_footer span i {
+  color: #997542;
+}
+.layout .perCard_footer button {
+  width: 225px;
+  height: 100%;
+  background-color: red;
+  float: right;
+  background-color: #997542;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  font-size: 34px;
+}
+.perCard_con .perCard_con_box .perCard_con_box_right span.current {
+  background: url("../img/checked.png") no-repeat 0 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.w {
+  padding: 0 25px;
+}

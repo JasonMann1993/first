@@ -1,0 +1,157 @@
+.layout {
+  width: 100%;
+  height: 100%;
+}
+.index_banner {
+  width: 100%;
+  height: 380px;
+  overflow: hidden;
+  position: relative;
+}
+.index_banner ul {
+  width: 300%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.index_banner ul li {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+}
+.index_banner ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.index_banner ul li a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.index_banner ul li a p {
+  position: absolute;
+  top: 135px;
+  left: 40px;
+  color: #fff;
+  font-size: 60px;
+}
+.index_banner ol {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -80px;
+}
+.index_banner ol li {
+  width: 20px;
+  height: 20px;
+  float: left;
+  background-color: #c6c6c7;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin: 20px;
+}
+.index_info {
+  width: 100%;
+  padding: 0 25px;
+}
+.index_info .info_box {
+  width: 100%;
+}
+.index_info .info_box .info_box_title {
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+}
+.index_info .info_box .info_box_title h3 {
+  font-size: 30px;
+  color: #5e5e63;
+}
+.index_info .info_box .info_box_title a {
+  font-size: 22px;
+  color: #ffc72c;
+}
+.index_info .info_box .info_box_con {
+  width: 100%;
+}
+.index_info .info_box .info_box_con ul {
+  width: 100%;
+}
+.index_info .info_box .info_box_con ul li {
+  width: 50%;
+  height: 210px;
+  float: left;
+  padding-right: 50px;
+  padding-bottom: 34px;
+}
+.index_info .info_box .info_box_con ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: -3px -3px -3px #ccc;
+  -moz-box-shadow: -3px -3px -3px #ccc;
+  box-shadow: -3px -3px -3px #ccc;
+}
+.index_info .info_box .info_box_con ul li a img {
+  width: 100%;
+  height: 135px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.index_info .info_box .info_box_con ul li a p {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  line-height: 40px;
+  color: #ffc72c;
+  font-size: 22px;
+}
+.mainCourse_footer {
+  width: 100%;
+  height: 100px;
+  background-color: #4a4a4a;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.mainCourse_footer ul {
+  width: 100%;
+  height: 100%;
+}
+.mainCourse_footer ul li {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+.mainCourse_footer ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.mainCourse_footer ul li a img {
+  margin-top: 12px;
+  width: 40px;
+  height: 40px;
+}
+.mainCourse_footer ul li a p {
+  color: #fff;
+  font-size: 27px;
+}
+.index_banner ol li.active {
+  background-color: #ffc72c;
+}
+.mainCourse_footer ol li.active {
+  background-color: #ffc72c;
+}

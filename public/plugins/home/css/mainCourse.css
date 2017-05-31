@@ -1,0 +1,99 @@
+.layout {
+  width: 100%;
+  height: 100%;
+}
+.mainCourse_search {
+  width: 100%;
+  height: 62px;
+  line-height: 62px;
+  margin-top: 20px;
+}
+.mainCourse_search form {
+  width: 100%;
+  height: 62px;
+  line-height: 62px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 2px #ccc;
+  -moz-box-shadow: 2px 2px 2px #ccc;
+  box-shadow: 2px 2px 2px #ccc;
+  box-shadow: -2px -2px -2px #ccc;
+}
+.mainCourse_search form input {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  height: 62px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.mainCourse_info {
+  width: 100%;
+  height: 190px;
+  position: relative;
+}
+.mainCourse_info a {
+  display: block;
+  width: 100%;
+  height: 155px;
+  border-radius: 25px;
+  position: absolute;
+  top: 20px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.mainCourse_info a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.mainCourse_info a h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+.mainCourse_info a p {
+  position: absolute;
+  right: 40px;
+  bottom: 13px;
+  font-size: 20px;
+}
+.mainCourse_footer {
+  width: 100%;
+  height: 100px;
+  background-color: #4a4a4a;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.mainCourse_footer ul {
+  width: 100%;
+  height: 100%;
+}
+.mainCourse_footer ul li {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+.mainCourse_footer ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.mainCourse_footer ul li a img {
+  margin-top: 12px;
+  width: 40px;
+  height: 40px;
+}
+.mainCourse_footer ul li a p {
+  color: #fff;
+  font-size: 27px;
+}
