@@ -5,9 +5,19 @@ namespace App\Http\Controllers\Manage;
 use App\Http\Requests\Manage\UserRequest;
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Support\Facades\Redis;
 
 class UsersController extends BaseController
 {
+
+    public function redis()
+    {
+//        $redis = new \Redis();
+//        $redis->connect("127.0.0.1","6379");
+//        dd($redis->get('test'));
+        $test = Redis::get('test');
+        dd($test);
+    }
     //用户列表页
     public function index(Request $request){
     	$where = [];
